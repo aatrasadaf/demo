@@ -1,0 +1,395 @@
+/* *{
+    margin:0px;
+    padding:0px;
+} */
+ body{
+    margin:0px;
+    padding:0px;
+    color:azure;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+ }
+.herosection{
+    background-image:linear-gradient(to right,rgba(0, 19,23, 0.95), rgba(62, 9, 3, 0.8)),url(netflixbghd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 100px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 30px 120px 10px 120px;
+}
+.logo {
+    height: 50px;
+    width: 150px;
+    align-items: center;
+}
+.navbar {
+    padding-top: 4px;
+}
+.navbutton{
+    background-color: #e40615;
+    width: 70px;
+    height: 30px;
+    color:azure;
+    border: 2px solid #e40615;
+    border-radius: 5px;
+}
+.navbutton:hover {
+    background-color: #ae2326;
+    border:#ae2326;
+}
+.content {
+    color:azure;
+    border-color: azure;
+    justify-content: center;
+    padding: 100px 300px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+h1{
+    font-size: 56px;
+    font-weight: 900;
+    line-height:70px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    word-spacing:0px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    line-height:normal;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    word-spacing:0;
+    font-weight: 500;
+    text-align: center;
+}
+h3{
+    font-size: 16px;
+    line-height:24px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    word-spacing:0;
+    font-weight: 400;
+    text-align: center;
+}
+.formheader{
+    padding-left: 80px;
+}
+.email{
+    height:43px;
+    width:350px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    vertical-align: baseline;
+}
+.email:focus{
+    border-style: double;
+    color:azure;
+}
+.submit{
+    height:45px;
+    width:250px;
+    background-color: #e40615;
+    color:azure;
+    border: 2px solid #e40615;
+    border-radius: 5px;
+    font-size: 24px !important;
+    font-weight:24px;
+    vertical-align: baseline;
+    margin-left: 5px;
+}
+.submit:hover {
+    background-color: #ae2326;
+    border:#ae2326;
+}
+.box {
+    height: auto;  
+    border: solid 5px #BE245D;
+    border-color: #BE245D transparent transparent transparent;
+    border-radius: 100%/100px 100px 0 0;
+    box-shadow: 0px 5px 100px 2px darkslateblue;
+    margin-top:-50px;
+    background-color: black;
+    padding: 40px 120px 10px 120px;
+    margin-bottom: -50px;
+    box-shadow: 2px 5px 100px 2px #1E1629;
+  }
+  h2{
+    color:azure;
+  }
+  .formsec2{
+    padding:0px;
+  }
+  .formsec2 select{
+    background-color: #0F0F0F;
+    color:azure;
+    width: 100px;
+    height:35px;
+    border: 1px solid azure;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 400px;
+  }
+  .sec2images{ 
+    padding-top:30px;
+    /* display: flex; */
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap:30px; 
+  box-sizing: border-box;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  }
+  .sec2image img{
+   border-radius: 5px;
+   width:190px;
+   height:254px;
+  } 
+
+
+.sec2image:hover {
+  border: 1px solid black;
+  transform: scale(1.15);
+}
+
+.sec2image:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+  .sec3{
+    background-color: black;
+    width: 100wh;
+    height:auto;
+    margin-top: 0px;
+    padding: 40px 120px 10px 120px;
+  }
+  .sec3reasons{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+  }
+  .sec3reasons1{
+    background-color: #1E1629;
+    width: 220px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 15px;
+
+  }
+  .sec3reasons h3{
+    font-size:24px;
+    font-weight: 500;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: azure;
+    text-align: left;
+  }
+  .sec3reasons p{
+    color:azure;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+  }
+  .sec3image{
+    display: flex;
+    height:100px;
+    flex-direction: row;
+    text-align: right;
+    justify-content:right;
+    align-items:flex-end;
+  }
+  
+  .sec3reasons1:hover {
+    border: 1px solid black;
+    box-shadow: 2px 5px 100px 2px #1E1629;
+    transform: scale(1.05);
+  }
+  
+  .sec3reasons1:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+
+  .sec4faq{
+    background-color: black;
+    width: 100wh;
+    height:auto;
+    margin-top: 0px;
+    padding: 40px 120px 10px 120px;
+    margin-bottom: 0px;
+  }
+  .sec4faq h3{
+    font-size:24px;
+    font-weight: 500;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: azure;
+    text-align: left;
+  }
+  .faq{
+    width:80vw;
+    height:70px;
+    background-color: #2D2D2D;
+    color:azure;
+    align-content: center;
+    margin-bottom: 7px;
+
+  }
+  .faq:hover{
+    background-color:#414141;
+  }
+  .faq button{
+    display:flex;
+    width:80vw;
+    height: 70px;
+    background-color: #2D2D2D;
+    color:azure;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    border: 0px;
+    padding: 0px 25px 0px 25px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .faq button:hover{
+    background-color:#414141;
+  }
+  .sec5{
+    background-color: black;
+    width: 100wh;
+    height:auto;
+    margin-top: 0px;
+    padding: 40px 120px 0px 120px;
+  }
+  .email h3{
+    font-size:16px;
+    font-weight: 400;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: azure;
+    text-align: center;
+  }
+  .sec5form{
+    padding-left: 250px;
+}
+  .email{
+    height:43px;
+    width:350px;
+    border: 1px solid white;
+    background-color: #0F0F0F;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    vertical-align: baseline;
+    padding:5px;
+}
+  .email:focus{
+    border-style: double;
+    color:azure;
+}
+  .submit{
+    height:45px;
+    width:250px;
+    background-color: #e40615;
+    color:azure;
+    border: 2px solid #e40615;
+    border-radius: 5px;
+    font-size: 24px !important;
+    font-weight:24px;
+    vertical-align: baseline;
+    margin-left: 5px;
+}
+  .submit:hover {
+    background-color: #ae2326;
+    border:#ae2326;
+}
+.footer{
+  background-color: black;
+  width: 100wh;
+  height:70vh;
+  margin-top: 0px;
+  padding: 40px 120px 0px 120px;
+}
+.footerdiv1{
+  display: flex;
+  color:azure;
+  justify-content: left;
+  padding:5px;
+}
+.footerdiv1 p{
+  font-size: 16px;
+  line-height:normal;
+  vertical-align:baseline;
+  letter-spacing:normal;
+  word-spacing:0;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: underline; 
+  color: azure;
+}
+
+.footerlist{
+ display: flex;
+ justify-content: left;
+ align-items: baseline;
+ flex-wrap: wrap;
+ gap:10px;
+}
+.list1{
+  width: 260px;
+  height: 200px;
+}
+.list1 ul{
+  list-style: none;
+  text-align: left;
+  justify-items: flex-start;
+  padding: 0px;
+}
+.list1 li{
+  font-size: 16px;
+  line-height:normal;
+  vertical-align:baseline;
+  letter-spacing:normal;
+  word-spacing:0;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: underline;
+  color: azure;
+  margin-bottom: 10px;
+}
+
+#language{
+  background-color: #2D2D2D;
+  width: 100px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color:azure;
+}
+.footerlastdiv p{
+  text-decoration: none;
+  color:azure;
+  font-size: 16px;
+  line-height:normal;
+  vertical-align:baseline;
+  letter-spacing:normal;
+  word-spacing:0;
+  font-weight: 400;
+  text-align: left;
+}
