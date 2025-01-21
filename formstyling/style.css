@@ -1,0 +1,118 @@
+.formdiv{
+    background-color: rgb(183, 182, 182);
+    padding: 50px 500px;
+}
+.form{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 300px;
+    padding: 30px;
+    margin-top: 5%;
+    text-align: center;
+    background-color: white;
+}
+h3{
+    color: #515151;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+.hr{
+    width:44%;
+    display: inline-block;
+}
+.para{
+    display: inline-block;
+    text-align: center;
+}
+.login{
+    margin-bottom: 10px;
+    width: 301px;
+    height: 40px;
+    background-color: blue;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.login:hover{
+    height: 42px; 
+    border: 12px solid blue;
+    cursor: default;
+}
+.email{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+    background-color: #e9e8e8;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.email:hover{
+    border: 2px solid gray;
+}
+.email:focus{
+    background-color: rgb(191, 191, 254);
+    outline: none;
+    border-color: blue; 
+}
+.name{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+    background-color: #e9e8e8;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.name:hover{
+    border: 2px solid gray;
+}
+.name:focus{
+    background-color: rgb(191, 191, 254);
+    outline: none;
+    border-color: blue;
+}
+.username{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+    background-color: #e9e8e8;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.username:hover{
+    border: 2px solid gray;
+}
+.username:focus{
+    background-color: rgb(191, 191, 254);
+    outline: none;
+    border-color: blue;
+}
+.password{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+    background-color: #e9e8e8;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.password:hover{
+    border: 2px solid gray;
+}
+.password:focus{
+    background-color: rgb(191, 191, 254);
+    outline: none;
+    border-color: blue;
+}
+.signin{
+    margin-bottom: 10px;
+    width: 307px;
+    height: 30px;
+    background-color: blue;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.signin:hover{
+    height: 32px; 
+    border: 7px solid blue;
+}
